@@ -1,0 +1,17 @@
+post_install() {
+  udevadm control --reload
+  systemctl try-restart org.cups.cupsd
+  systemctl try-restart cups-browsed
+}
+
+post_upgrade() {
+  udevadm control --reload
+  systemctl try-restart org.cups.cupsd
+  systemctl try-restart cups-browsed
+}
+
+post_remove() {
+  udevadm control --reload
+  systemctl try-restart org.cups.cupsd
+  systemctl try-restart cups-browsed
+}

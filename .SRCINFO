@@ -1,0 +1,24 @@
+pkgbase = hp-cp1025nw-cups
+	pkgdesc = CUPS drivers for printer HP cp1025nw
+	pkgver = 20151105
+	pkgrel = 1
+	url = https://github.com/frealgagu/hp-cp1025nw-cups
+	install = foo2zjs.install
+	arch = i686
+	arch = x86_64
+	license = GPL
+	license = custom
+	makedepends = bc
+	makedepends = unzip
+	makedepends = wget
+	depends = psutils
+	depends = cups
+	depends = foomatic-db-engine
+	conflicts = foo2zjs
+	options = !emptydirs
+	options = !ccache
+	source = foo2zjs.tar.gz
+	sha256sums = f0d561df24d58e885278a5b6703d9149967d2383bdb05508b5ceee85703ef433
+
+pkgname = hp-cp1025nw-cups
+
