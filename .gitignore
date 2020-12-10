@@ -1,2 +1,6 @@
+hp-cp1025nw-cups-*.pkg.tar.zst
+hp-cp1025nw-cups-*.pkg.tar.xz
+hp-cp1025nw-cups-*.log
+PKGBUILD-namcap.log
 pkg/
 src/
