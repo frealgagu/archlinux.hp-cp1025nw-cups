@@ -1,7 +1,7 @@
 # Maintainer: Fredy García <frealgagu at gmail dot com>
 
 pkgname=hp-cp1025nw-cups
-pkgver=20151105
+pkgver=20201127
 pkgrel=1
 pkgdesc="CUPS drivers for printer HP cp1025nw"
 arch=("i686" "x86_64")
@@ -13,7 +13,7 @@ conflicts=("foo2zjs")
 options=("!emptydirs" "!ccache")
 install="foo2zjs.install"
 source=("foo2zjs.tar.gz")
-sha256sums=("f0d561df24d58e885278a5b6703d9149967d2383bdb05508b5ceee85703ef433")
+sha256sums=("ad7c72d650c71486169e8ab67f3d4e4f37b041319541482bac45f6ea1d6848ec")
 
 build() {
   cd "${srcdir}/foo2zjs"
